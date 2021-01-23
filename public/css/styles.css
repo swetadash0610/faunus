@@ -231,6 +231,28 @@ border-top-left-radius: 0px;
     border-bottom-left-radius: 12px;
 }
 
+/* Understanding the problems */
+.sections .issues{
+  text-align: center;
+  margin:2rem auto;
+}
+
+.sections .issues i{
+  font-size: 4rem;
+  background:-moz-linear-gradient(to right, #ffe000, #799f0c 100%); 
+        background: -webkit-linear-gradient(to right, #ffe000, #799f0c 100%); 
+        background: linear-gradient(to right, #ffe000, #799f0c 100%);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+       -webkit-text-fill-color:transparent;
+}
+
+.sections .issues p{
+  margin: 1rem auto;
+  font-size: 1.2rem;
+}
+
 /* About */
 
 .sections{
@@ -241,14 +263,47 @@ border-top-left-radius: 0px;
     margin: 3rem auto;
     position: relative;
 }
-
-.sections .content{
-  display: flex;
-  justify-content: space-between;
+.sections .about{
+  text-align:center;
+  
+}
+.sections .about i{
+  font-size: 4rem;
+  margin:1rem auto;
+  background:-moz-linear-gradient(to right, #0356a3, #0cd4b3 100%); 
+        background: -webkit-linear-gradient(to right, #0356a3, #0cd4b3 100%); 
+        background: linear-gradient(to right, #0356a3, #0cd4b3 100%);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+       -webkit-text-fill-color:transparent;
 }
 
-.sections .content img{
-  width: 8rem;
+/* Predict */
+.sections .predict{
+  text-align:center;
+  
+}
+
+.sections .predict p{
+  margin: 1rem auto;
+  font-size: 1.2rem;
+}
+
+.sections .predict i{
+  font-size: 4rem;
+  margin:1rem auto;
+  background:-moz-linear-gradient(to right, #276e12, #06f155 100%); 
+        background: -webkit-linear-gradient(to right,  #276e12, #06f155 100%); 
+        background: linear-gradient(to right, #276e12, #06f155 100%);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+       -webkit-text-fill-color:transparent;
+}
+
+.head{
+  font-size:1.5rem
 }
 
     /* footer */

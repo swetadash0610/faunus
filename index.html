@@ -39,13 +39,14 @@
           </a>
            <div class="menu">
               <ul>
-                 <li><a href="#about">INTRODUCTION</a></li>
-                 <li><a href="#wildfire">UNDERSTANDING THE PROBLEM</a></li>
-                 <li><a href="#agri">OUR SOLUTION</a></li>
-                 <li><a href="https://saswat-sahoo.itch.io/forrest-fire-sim" target="_blank"> 
+                 <li><a href="#about">ABOUT</a></li>
+                 <li><a href="https://faunus-forest-predict.herokuapp.com/" target="_blank">PREDICT</a></li>
+                 <li><a href="https://saswat-sahoo.itch.io/forrest-fire-sim" target="_blank">PREVENT</a></li>
+                 <li><a href="#agri" target="_blank">RESTORE</a></li>
+                 <!-- <li><a href="https://saswat-sahoo.itch.io/forrest-fire-sim" target="_blank"> 
                     <button class="btn btn-gradient gradient2"> 
                         Simulate
-                    </button></a></li>
+                    </button></a></li> -->
               </ul>
            </div>
         </nav>  
@@ -53,8 +54,7 @@
             <a href="" class="btn-liquid">
              
                     <h1 class="inner">
-                        A wave of change
-                      <p>Predicting wildfires</p>
+                        Predict.Prevent.Restore
                       <div>                      
                     </div>  
                     </h1> 
@@ -66,74 +66,200 @@
   
 
      <main class="container">
-         <!-- About -->
-        <div class="sections" data-aos="zoom-in" id="about">
-            <h3 class="title">INTRODUCTION</h3>
-            <div class="content">
-                <p>Forest fires are one of the major reasons for loss of forest ecosystems and human communities.
-                    More than 3 million forest land is destroyed every year. In the longer term, they can adversely affect the supply of environmental services, threaten the survival of endangered species, the composition and structure of forests and the soil quality.
-                    Forest fires can be caused due to natural or human activities but whatever might be the cause they need to be managed properly to minimise the damage to forest.
-                    
-                </p>
-                <img src="/public/images/leaf.png" alt="intro">
-            </div>
-            
-          </div>
+
 
           <!-- UNDERSTANDING THE PROBLEM -->
         <div class="sections" data-aos="zoom-in" id="wildfire">
-            <h3 class="title">UNDERSTANDING THE PROBLEM</h3>
-            <p>Dealing with forest fire remains a reflex action,not a proactive and 
-                thought out approach.
-                Current techniques and dealing methods used by forest 
-                rangers and fire fighters such as soil throwing, water spraying, 
-                dropping of ammonia from helicopters, cutting down patch of forests to
-                prevent further spread are not efficient enough to deal with forest fires as there is definite way to predict the behaviour of the forest fire which includes speed and direction of fire and possible damage perimeter.Hence forest fires take too long to be controlled due to which significant amount of forest may be affected along with damage to soil and ecosystem which include local flora and fauna.
-                </p>
+            <h3 class="title">UNDERSTANDING THE PROBLEMS</h3>
+            <p> Forest fires are one of the major reasons for loss of forest ecosystems and human communities.
+                More than 3 million forest land is destroyed every year. In the longer term, they can adversely affect the supply of environmental services, threaten the survival of endangered species, the composition and structure of forests and the soil quality.
+                Forest fires can be caused due to natural or human activities but whatever might be the cause they need to be managed properly to minimise the damage to forest.     
+            </p>
+            <h4>What are the issues?</h4>
+            <div class="issues row">
+                <div class="col">
+                    <i class="fas fa-info-circle"></i>
+                    <p>Lack of early information in order to tackle the fire </p>
+                </div>
+                <div class="col">
+                    <i class="fas fa-shoe-prints"></i>
+                    <p>Absense of proactive steps to prevent forest fires</p>
+                </div>
+                <div class="col">
+                    <i class="fas fa-seedling"></i>
+                    <p>Improper management of destroyed forest land</p>
+                </div>
+            </div>
         </div>  
 
-          <!-- OUR SOLUTION -->
+         <!-- ABOUT -->
+        <div class="sections" data-aos="zoom-in" id="about">
+            <h3 class="title">ABOUT</h3>
+            <div class="content">
+                <p> We came up with Faunus which provides an 
+                    end to end solution to all the 
+                    above mentioned problems.We propose an innovative solution by providing a 
+                    prediction,prevention and restoration of forest fires. 
+                    Below is our three-fold motto:
+                </p>
+                <div class="about row">
+                    <div class="col">
+                        <i class="fas fa-signal"></i>
+                        <p>PREDICT</p>
+                        <p>We take these parameters and our machine learning model 
+                            checks whether that area is susceptible to forest fires or not.
+                        </p>
+                    </div>
+                    <div class="col">
+                        <i class="fas fa-stop-circle"></i>
+                        <p>PREVENT</p>
+                        <p>
+                            If an area is likely to have forest fire then we inform the user 
+                            about a list of measures that can be taken in order to avoid that disaster.
+                            We have also got a simulator to visualize the spread of forest fires.
+                        </p>
+                    </div>
+                    <div class="col">
+                        <i class="fas fa-history"></i>
+                        <p>RESTORE</p>
+                        <p>
+                            If a land is destroyed by wildfires then we take certain parameters from 
+                            the user and provide them with 
+                            valuable information to restore the land fertility.
+                        </p>
+                    </div>
+                </div>
+            </div>          
+          </div>
+
+
+          <!-- PREDICT -->
           <div class="sections" data-aos="zoom-in" id="agri">
-            <h3 class="title">OUR SOLUTION</h3>
-            <p>
-                We Propose an innovative solution by providing a prediction tool of forest fires using simulation. By using the simulation software we plan to simulate how actually a forest fire propagates and how it varies according to different factors that affect its growth like wind speed, temperature, humidity, etc in a totally virtual environment and from this we can get key data like how fast and how wide the forest fire would spread. This simulation can be changed according to the topological factors of a forest 
-                that it is currently simulating can also be used to specify a particular situation.
-            </p>
+            <h3 class="title">PREDICT</h3>
+            <p> We take the following parameters and our machine learning model checks whether that area is susceptible to forest fires or not.</p>
+            <div class="predict row">
+                <div class="col">
+                    <i class="fas fa-cloud-rain"></i>
+                    <p>Rainfall</p>
+                </div>
+                <div class="col col-xs">
+                    <i class="fas fa-wind"></i>
+                    <p>Wind speed</p>
+                </div>
+                <div class="col col-xs">
+                    <i class="fas fa-grin-beam-sweat"></i>
+                    <p>Humidity</p>
+                </div>
+                <div class="col col-xs">
+                    <i class="fas fa-temperature-high"></i>
+                    <p>Temperature</p>
+                </div>
+                <div class="col col-xs">
+                    <i class="fas fa-plus-circle"></i>
+                    <p>More</p>
+                </div>
+            </div>
         </div>
 
-             <!-- IMPACT OF OUR SOLUTION-->
+             <!-- PREVENT-->
              <div class="sections" data-aos="zoom-in" >
-                <h3 class="title">IMPACT OF OUR SOLUTION</h3>
-                <p>
-                    Our forest fire simulator will provide the probable 
-                    coordinates and perimeter of damage so that local officials 
-                    can plan and strategize beforehand which areas to concentrate their 
-                    efforts and more efficiently utilize the available resources to minimize 
-                    and control the forest fire damage.
+                <h3 class="title">PREVENT</h3>
+                <p> Ways to prevent wildfires: </p>
+                <div class="row">                
+                <p class="col"> <span class="head"> Grazing-</span> It is one of the methods for reducing the risk of forest 
+                    fires, since it reduces the brush biomass, which serves as fuel for fires, 
+                    and consequently assists in preventing fires from starting and from spreading.Forest fires 
+                    start in low brush (leaves, twigs, grass), and their spreading to the treetops depends on 
+                    the contiguity of flammable substances between the forest floor and the treetops.
                 </p>
+                <p class="col"> <span class="head">Sanitation-</span>  Continuous work done throughout the lifecycle of the forest, 
+                    which includes removal of dead/desiccated/sick trees from the forest, 
+                    whether they are upright or prone. Trees that cannot be removed due to 
+                    problematic conditions are sawed into stumps around 1m long, which are 
+                    left scattered in that section.
+                </p>
+                </div>
+                <div class="row">
+                <p class="col"> <span class="head">Thinning –</span>  Ideally, thinning should be done every seven to ten years. 
+                    This entails removing the less developed trees and the withering trees. 
+                    Thinning in conifer forests is done in accordance with the density charts 
+                    that define the number of trees left while taking the age of the 
+                    forest into consideration and the quality of the habitat. </p>
+                 <p class="col">
+                     <span class="head">Pruning –</span>
+                     Pruning includes the lower branches of a tree up to a third of its height, 
+                    2.5m from the ground at most. In recreation areas and along trails (where there is a 
+                    higher risk for fires), pruning might be done as high as 4m. This is in order to 
+                    remove the lower branches of the tree so that the treetop is separated from the ground.
+                 </p>  
+                </div>
+                <div class="row">
+                 <p class="col">
+                     <span class="head">Removing the Cuttings and the Tree Waste –</span>
+                     The cuttings and waste are 
+                    transported from the forest area to the side of the road, where they get 
+                    chopped up and then removed from the forest for various uses or, alternatively,
+                    scattered on the ground. KKL JNF is careful about keeping a strip of forest 
+                    along the roads free of cuttings and tree waste, for at least 30m from the 
+                    roadside, and encourages the residents of nearby communities to use cuttings and 
+                    tree waste for heating and other uses.
+                 </p> 
+                 <p class="col">
+                     <span class="head">Burning the Cuttings – </span>
+                    This is an interface operation of great importance for the management 
+                    of cuttings, and it is customary in various forested countries as a routine treatment. 
+                    After sanitation, thinning and pruning, the cuttings must be dealt with, and in places where 
+                    the forest is on a steep slope or far from the road, the cuttings are burned in a glade. 
+                 </p>
+                </div>
+
+                <div class="row">
+                 <p class="col">
+                     <span class="head">Water –</span>
+                     Water supply infrastructure for providing fire trucks and firefighters 
+                    with water in the event of a fire. Water is logistically the most important 
+                    resource for extinguishing a fire.
+                 </p>
+                 <p class="col">
+                     <span class="head"> Watchtowers – </span>
+                   These watchtowers are intended for early detection of a forest 
+                    fire and directing firefighters to its location. The watchtowers are positioned
+                     in a network so that any smoke rising above the forest will be visible from at 
+                     least two watchtowers, which allows for precisely locating the fire that has 
+                     been detected. The watchtowers are all at least 12m high.
+                 </p>
+                </div>
+                <div class="row">
+                    <p class="col">
+                        <span class="head">Signposting –</span>
+                        Forest fire destination signs are mobile signs intended for a specific fire as 
+                        it is being extinguished that read: TO THE FIRE. In the event of a fire, these 
+                        signs are placed in the area by foresters in order to direct the firefighting 
+                        forces as they leave the main roads and follow routes leading directly to the 
+                        fire.
+                     </p>
+                </div>
+
+                <div>
+                    <h3> Click here to see the simulation</h3>
+                   
+
+                    <a href="https://faunus-sim.itch.io/faunus-simulator" target="_blank"> 
+                        <button class="btn btn-gradient gradient2"> 
+                            Simulate
+                        </button></a>
+                </div>
+                    
+                
             </div>
 
-                 <!-- CONSTRAINTS TO OVERCOME -->
+                 <!-- RESTORE -->
           <div class="sections" data-aos="zoom-in" id="agri">
-            <h3 class="title">CONSTRAINTS TO OVERCOME</h3>
+            <h3 class="title">RESTORE</h3>
             <p>
-                We currently need actual data on forest fire, how forest fires 
-                behaved in the past so that we can verify it with our simulator 
-                or even use it as training data.
             </p>
         </div>
-        <!-- FUTURE GOALS -->
-        <div class="sections" data-aos="zoom-in" id="agri">
-            <h3 class="title">FUTURE GOALS</h3>
 
-            <p>
-                We plan to improvise the simulation by using machine learning methods 
-                by using previous  forest fires  statistical data, which will improve the accuracy of the simulation.
-                We plan to improve the simulation by Integrating a real-time update 
-                system  into the simulation where the initial simulation prepared by us 
-                would be updated according to the data that we get from satellite images and Drone data.
-            </p>
-        </div>
      </main>
      
      <!-- Footer -->
