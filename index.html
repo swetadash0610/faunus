@@ -40,13 +40,15 @@
            <div class="menu">
               <ul>
                  <li><a href="#about">ABOUT</a></li>
-                 <li><a href="https://faunus-forest-predict.herokuapp.com/" target="_blank">PREDICT</a></li>
-                 <li><a href="https://saswat-sahoo.itch.io/forrest-fire-sim" target="_blank">PREVENT</a></li>
-                 <li><a href="#agri" target="_blank">RESTORE</a></li>
-                 <!-- <li><a href="https://saswat-sahoo.itch.io/forrest-fire-sim" target="_blank"> 
-                    <button class="btn btn-gradient gradient2"> 
-                        Simulate
-                    </button></a></li> -->
+                 <li><a href="https://faunus-predict.herokuapp.com/" target="_blank">PREDICT</a></li>
+                 <li><a href="#prevent">PREVENT</a></li>
+                 <li><a href="https://faunus-restore.herokuapp.com/" target="_blank">RESTORE</a></li>
+                 <li>
+                    <a href="https://faunus-sim.itch.io/faunus-simulator/" target="_blank"> 
+                        <button class="btn btn-gradient gradient2"> 
+                            Simulate
+                        </button></a>
+                 </li>
               </ul>
            </div>
         </nav>  
@@ -94,7 +96,7 @@
 
          <!-- ABOUT -->
         <div class="sections" data-aos="zoom-in" id="about">
-            <h3 class="title">ABOUT</h3>
+            <h2 class="title">ABOUT</h2>
             <div class="content">
                 <p> We came up with Faunus which provides an 
                     end to end solution to all the 
@@ -134,8 +136,8 @@
 
 
           <!-- PREDICT -->
-          <div class="sections" data-aos="zoom-in" id="agri">
-            <h3 class="title">PREDICT</h3>
+          <div class="sections" data-aos="zoom-in" id="predict">
+            <h2 class="title">PREDICT</h2>
             <p> We take the following parameters and our machine learning model checks whether that area is susceptible to forest fires or not.</p>
             <div class="predict row">
                 <div class="col">
@@ -159,11 +161,20 @@
                     <p>More</p>
                 </div>
             </div>
+            <div class="redirect">
+                <h3> Click here to Predict </h3>  
+                    <p>Here you can set specific parameters and our Machine Learning models will 
+                        predict if that are is in danger of forest fire</p>
+                    <a href="https://faunus-predict.herokuapp.com/" target="_blank"> 
+                    <button class="btn btn-gradient gradient2"> 
+                        Predict
+                    </button></a>
+            </div>
         </div>
 
              <!-- PREVENT-->
-             <div class="sections" data-aos="zoom-in" >
-                <h3 class="title">PREVENT</h3>
+             <div class="sections" id="prevent" data-aos="zoom-in" >
+                <h2 class="title">PREVENT</h2>
                 <p> Ways to prevent wildfires: </p>
                 <div class="row">                
                 <p class="col"> <span class="head"> Grazing-</span> It is one of the methods for reducing the risk of forest 
@@ -238,13 +249,14 @@
                         forces as they leave the main roads and follow routes leading directly to the 
                         fire.
                      </p>
+                     <div class="col"></div>
                 </div>
 
-                <div>
-                    <h3> Click here to see the simulation</h3>
-                   
-
-                    <a href="https://faunus-sim.itch.io/faunus-simulator" target="_blank"> 
+                <div class="redirect">
+                    <h3> Click here to visualize</h3>  
+                        <p>This simulator can help in predicting the behaviour of forest 
+                            fire which inturn can help in effective wildfire management</p>
+                        <a href="https://faunus-sim.itch.io/faunus-simulator" target="_blank"> 
                         <button class="btn btn-gradient gradient2"> 
                             Simulate
                         </button></a>
@@ -254,11 +266,60 @@
             </div>
 
                  <!-- RESTORE -->
-          <div class="sections" data-aos="zoom-in" id="agri">
+          <div class="sections" data-aos="zoom-in" id="restore">
             <h3 class="title">RESTORE</h3>
-            <p>
-            </p>
-        </div>
+            <div class="row">
+                <div class="col">
+                   
+                    <p class="head">Channel Treatment</p> 
+                    Channel treatments can used to modify sediment and water movement in stream channels, preventing flooding and debris torrents that threaten downstream communities and resources. These treatments often serve to slow water flow, 
+                    allowing sediment to settle out, and then release sediments gradually through decay.
+                </div>
+                <div class="col">
+                    
+                    <p class="head">Seeding</p> 
+                    The hillslope stabilization treatment can be done by aerial seeding of annual grasses. This activity has shown limited effectiveness, but remains the only method available to treat 
+                    large areas in a short period of time and at a reasonably low cost per acre.
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p class="head">Mulching</p>
+                    
+                    Mulching is the most effective way to provide immediate ground cover to sensitive areas, but it also is relatively expensive and difficult to install. Also, a mixture of water, wood fiber mulch, seed and sometimes fertilizer known as hydromulch can be treated. This treatment provides 
+                    protective benefits during the first year, even if seeds don’t germinate.
+                </div>
+                <div class="col">
+                    <p class="head">Contour Log Felling</p>
+                    
+                    Burned logs onsite can be used to create a mechanical barrier to water flow that also traps sediment and promotes infiltration. Dead trees are felled, limbed, cut to manageable size and placed on a contour perpendicular to the direction of the slope. Long tubes of plastic netting filled with straw, known as straw wattles, 
+                    often are used in the same way as logs because they are easier and less hazardous to place.
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p class="head">Silt Fences</p>  
+                    In areas where large-scale surface runoff with significant sedimentation is expected, 
+                    fences hung with specially designed fabric can be erected.
+                </div>
+                <div class="col">
+                    <p class="head">Tilling and Scarification</p>
+                    
+                    In areas where burn severity has created water repellent or hydrophobic soils, 
+                    breaking up the hardened soil layer to increase infiltration and improve conditions for reseeding. This scarification can be done by hand on steep slopes using hand-rakes known as McLeods, or it can be conducted mechanically 
+                    using all-terrain or other vehicles to drag a harrow across the ground.
+                </div>
+            </div>
+
+            <div class="redirect">
+                <h3> Click here to see appropriate restoration solutions</h3>  
+
+                    <a href="https://faunus-restore.herokuapp.com/" target="_blank"> 
+                    <button class="btn btn-gradient gradient2"> 
+                        Restore
+                    </button></a>
+            </div>
+          </div>
 
      </main>
      
@@ -273,8 +334,10 @@
                                 <h3 class="title">Faunus</h3>
                             </div>
                             <div class="footer-text">
-                                <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
-                                elit,Lorem ipsum dolor sit amet.</p>
+                                <p>Faunus provides an end to end solution to all the above mentioned problems.
+                                    We propose an innovative solution by 
+                                    providing a prediction,prevention and restoration of forest fires. 
+                                    Our three fold motto is predict+prevent+restore</p>
                             </div>
                             <div class="footer-social-icon">
                                 <span>Follow us</span>
@@ -291,9 +354,9 @@
                             </div>
                             <ul>
                                 <li><a href="#">Home</a></li>
-                                <li><a href="#about">About Us</a></li>
-                                <li><a href="#wildfires">Managing wildfires</a></li>
-                                <li><a href="#agri">Reforming Agriculture</a></li>
+                                <li><a href="#predict">Predict</a></li>
+                                <li><a href="#prevent">Prevent</a></li>
+                                <li><a href="#restore">Restore</a></li>
                                 <li><a href="#footer">Contact Us</a></li>
                             </ul>
                         </div>

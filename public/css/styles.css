@@ -194,6 +194,12 @@ nav ul li {
 
 }
 
+/* Title */
+.title{
+  font-weight: 800;
+  color: #ffbe33;
+}
+
 /* Button */
 .buttons > button{
   margin-right: 30px;
@@ -304,6 +310,11 @@ border-top-left-radius: 0px;
 
 .head{
   font-size:1.5rem
+}
+
+.redirect{
+  text-align:center;
+  margin: 1.5rem auto;
 }
 
     /* footer */
